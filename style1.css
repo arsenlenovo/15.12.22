@@ -1,17 +1,13 @@
-body, html {
-  
+body,
+html {
   height: 100vh;
   width: 100%;
-  
-  
-  
 }
 .navbar {
   width: 98%;
   height: 170px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
-  
 }
 .navbar .container {
   height: inherit;
@@ -23,11 +19,10 @@ body, html {
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 0;
-  
+  text-transform: uppercase;
 }
 .navbar-menu li {
   display: inline-block;
-
 }
 .navbar-menu li a {
   display: inline-block;
@@ -35,7 +30,7 @@ body, html {
   opacity: 0.6;
   text-decoration: none;
   padding: 3px;
-  transition: all .07s ease-in-out;
+  transition: all 0.07s ease-in-out;
 }
 .navbar-menu li a:hover {
   opacity: 1;
@@ -43,9 +38,8 @@ body, html {
 .navbar-wrap {
   display: flex;
   flex-flow: row nowrap;
-  
 }
-.colback  {
+.colback {
   margin-left: 30px;
   margin-right: 200px;
   margin-top: 13px;
@@ -53,8 +47,9 @@ body, html {
   background-color: rgb(251, 180, 2);
   border-radius: 0px;
   color: #fff;
+  text-decoration: none;
 }
-.colback:hover  {
+.colback:hover {
   transform: scale(1.04);
 }
 
@@ -74,23 +69,31 @@ body, html {
   margin-left: 30px;
 }
 
-
-
 header {
-  
   background-image: url(/img/hero.png);
   width: 100%;
   height: 100vh;
 }
-/*
+.h-1 {
+  color: rgb(255, 94, 35);
+  text-transform: uppercase;
+}
+/
 section {
     position: absolute;
     box-shadow: 1px 1px 40px;
     width: 100%;
-    height: 100vh;
+    
+    
   }*/
 
-  
+.container-1 {
+  background-color: burlywood;
+  padding: 20px;
+  width: 50%;
+  top: 100px;
+  left: 300px;
+}
 
 h1 {
   padding-top: 360px;
@@ -101,8 +104,22 @@ h1 {
 .orenge-text {
   color: orange;
 }
+p {
+  padding: 10px;
+  width: 300px;
+  top: 50px;
+  
+  padding-left: 200px;
+}
 
+.container-2 {
+  background-image: url(/img/ceke.png);
+  
+  background-color: blue;
+  
+}
 
-
-
- 
+.imgs {
+  background-image: url(/img/food.png);
+  
+}
