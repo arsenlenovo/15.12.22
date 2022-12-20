@@ -78,17 +78,17 @@ header {
   color: rgb(255, 94, 35);
   text-transform: uppercase;
 }
-/
+/*
 section {
     position: absolute;
     box-shadow: 1px 1px 40px;
     width: 100%;
-    
+    background-color: #fff;
     
   }*/
 
 .container-1 {
-  background-color: burlywood;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   width: 50%;
   top: 100px;
@@ -124,7 +124,7 @@ p {
  
   background-image: url(/img/food.png);
   margin-left: 700px;
-  padding-bottom: 200px;
+  padding-bottom: 180px;
   
 }
 .imgs {
